@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/threadpoolremake.dir/ThreadPool.cpp.o CMakeFiles/threadpoolremake.dir/main.cpp.o  -o threadpoolremake.exe -Wl,--out-implib,libthreadpoolremake.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

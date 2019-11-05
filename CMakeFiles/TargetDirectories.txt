@@ -1,0 +1,3 @@
+/c/C++/ThreadPool/ThreadPoolRemake/CMakeFiles/rebuild_cache.dir
+/c/C++/ThreadPool/ThreadPoolRemake/CMakeFiles/threadpoolremake.dir
+/c/C++/ThreadPool/ThreadPoolRemake/CMakeFiles/edit_cache.dir
