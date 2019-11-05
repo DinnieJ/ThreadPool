@@ -2,6 +2,7 @@
 #include <iostream>
 #include <chrono>
 int main(){
+    std::cout<<"Enter number of worker:";
     int workers;
     std::cin>>workers;
     ThreadPool pool(workers);

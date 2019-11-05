@@ -12,8 +12,9 @@ void ThreadPool::run(){
          *Give task for the worker
          The task will working as a queue, with workers work "lần lượt" till the queue is empty
          **/
-        workers.emplace_back([this]{
+        workers.emplace_back([this,i]{
             while(1){
+                std::cout<<"Worker #"<< i <<" is working"<<std::endl;
                 std::function<void()> task;
                 std::unique_lock<std::mutex> lock(this->mutex);
                 this->condition.wait(lock,[this]{
