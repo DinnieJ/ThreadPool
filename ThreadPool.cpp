@@ -4,7 +4,7 @@ ThreadPool::ThreadPool(int numberofworkers)
           : stop(false),
             size(numberofworkers)
 {
-    run();
+    
 }
 void ThreadPool::run(){
     for(int i = 0;i<size;++i){
