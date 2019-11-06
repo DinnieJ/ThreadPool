@@ -4,7 +4,7 @@ ThreadPool::ThreadPool(int numberofworkers)
           : stop(false),
             size(numberofworkers)
 {
-    
+
 }
 void ThreadPool::run(){
     for(int i = 0;i<size;++i){
@@ -26,6 +26,7 @@ void ThreadPool::run(){
                 task = std::move(this->queueTasks.front());
                 this->queueTasks.pop();
                 task();
+                
             }
         });
     }

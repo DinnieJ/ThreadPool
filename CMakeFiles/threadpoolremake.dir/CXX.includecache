@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/c/C++/ThreadPool/ThreadPoolRemake/ThreadPool.cpp
+ThreadPool.hpp
+/c/C++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
+
 /c/C++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
 vector
 -
