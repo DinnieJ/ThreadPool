@@ -6,8 +6,7 @@ int main(){
     int workers;
     std::cin>>workers;
     ThreadPool pool(workers);
-    ThreadPool addJob(workers);
-    pool.run();
+
     std::vector<std::future<int>> results;
     for(int i = 0; i < 10000000; i++) {
         results.emplace_back(
@@ -20,7 +19,7 @@ int main(){
             )   
         );
     }
-
+    pool.run();
     std::cout<<"Get all result:"<<std::endl;
     for(auto && result:results){
         std::cout<<result.get()<<std::endl;

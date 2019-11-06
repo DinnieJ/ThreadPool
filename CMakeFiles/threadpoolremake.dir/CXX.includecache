@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/c/C++/ThreadPool/ThreadPoolRemake/ThreadPool.cpp
+/c/c++/ThreadPool/ThreadPoolRemake/ThreadPool.cpp
 ThreadPool.hpp
-/c/C++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
+/c/c++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
 
-/c/C++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
+/c/c++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
 vector
 -
 queue
@@ -32,9 +32,9 @@ stdexcept
 iostream
 -
 
-/c/C++/ThreadPool/ThreadPoolRemake/main.cpp
+/c/c++/ThreadPool/ThreadPoolRemake/main.cpp
 ThreadPool.hpp
-/c/C++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
+/c/c++/ThreadPool/ThreadPoolRemake/ThreadPool.hpp
 iostream
 -
 chrono

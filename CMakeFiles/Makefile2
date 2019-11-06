@@ -54,10 +54,10 @@ RM = /usr/bin/cmake.exe -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /c/C++/ThreadPool/ThreadPoolRemake
+CMAKE_SOURCE_DIR = /c/c++/ThreadPool/ThreadPoolRemake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /c/C++/ThreadPool/ThreadPoolRemake
+CMAKE_BINARY_DIR = /c/c++/ThreadPool/ThreadPoolRemake
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,7 +74,7 @@ clean: CMakeFiles/threadpoolremake.dir/clean
 CMakeFiles/threadpoolremake.dir/all:
 	$(MAKE) -f CMakeFiles/threadpoolremake.dir/build.make CMakeFiles/threadpoolremake.dir/depend
 	$(MAKE) -f CMakeFiles/threadpoolremake.dir/build.make CMakeFiles/threadpoolremake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/c/C++/ThreadPool/ThreadPoolRemake/CMakeFiles --progress-num=1,2,3 "Built target threadpoolremake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/c/c++/ThreadPool/ThreadPoolRemake/CMakeFiles --progress-num=1,2,3 "Built target threadpoolremake"
 .PHONY : CMakeFiles/threadpoolremake.dir/all
 
 # Include target in all.
@@ -84,9 +84,9 @@ all: CMakeFiles/threadpoolremake.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/threadpoolremake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /c/C++/ThreadPool/ThreadPoolRemake/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /c/c++/ThreadPool/ThreadPoolRemake/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/threadpoolremake.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /c/C++/ThreadPool/ThreadPoolRemake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /c/c++/ThreadPool/ThreadPoolRemake/CMakeFiles 0
 .PHONY : CMakeFiles/threadpoolremake.dir/rule
 
 # Convenience name for target.

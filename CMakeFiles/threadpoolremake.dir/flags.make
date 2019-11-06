@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/c/C++/ThreadPool/ThreadPoolRemake 
+CXX_INCLUDES = -I/c/c++/ThreadPool/ThreadPoolRemake 
 
