@@ -8,7 +8,7 @@ int main(){
     ThreadPool pool(workers);
 
     std::vector<std::future<int>> results;
-    for(int i = 0; i < 10000000; i++) {
+    for(int i = 0; i < 100000000; i++) {
         results.emplace_back(
             pool.enqueue(
                 [i] {
